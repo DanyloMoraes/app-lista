@@ -1,4 +1,4 @@
 package devandroid.danylo.applistacurso.controller;
 
-public class CursoController {
+public class PessoaController {
 }
