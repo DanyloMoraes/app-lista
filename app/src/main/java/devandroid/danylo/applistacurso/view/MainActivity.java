@@ -14,6 +14,10 @@ import devandroid.danylo.applistacurso.model.Pessoa;
 public class MainActivity extends AppCompatActivity {
 
     Pessoa pessoa;
+    Pessoa outraPessoa;
+
+    String dadosPessoa;
+    String dadosOutraPessoa;
  
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,5 +31,35 @@ public class MainActivity extends AppCompatActivity {
         });
 
         pessoa = new Pessoa();
+        pessoa.setPrimeiroNome("John");
+        pessoa.setSobreNome("Smith");
+        pessoa.setCursoDesejado("Android");
+        pessoa.setTelefoneContato("99-99999999");
+
+        outraPessoa = new Pessoa();
+        outraPessoa.setPrimeiroNome("Jane");
+        outraPessoa.setSobreNome("Doe");
+        outraPessoa.setCursoDesejado("Java");
+        outraPessoa.setTelefoneContato("11-11111111");
+
+        dadosPessoa = "Primeiro nome: ";
+        dadosPessoa += pessoa.getPrimeiroNome();
+        dadosPessoa += " Sobrenome: ";
+        dadosPessoa += pessoa.getSobreNome();
+        dadosPessoa += " Curso Desejado: ";
+        dadosPessoa += pessoa.getCursoDesejado();
+        dadosPessoa += " Telefone de Contato: ";
+        dadosPessoa += pessoa.getTelefoneContato();
+
+        dadosOutraPessoa = "Primeiro nome: ";
+        dadosOutraPessoa += outraPessoa.getPrimeiroNome();
+        dadosOutraPessoa += " Sobrenome: ";
+        dadosOutraPessoa += outraPessoa.getSobreNome();
+        dadosOutraPessoa += " Curso Desejado: ";
+        dadosOutraPessoa += outraPessoa.getCursoDesejado();
+        dadosOutraPessoa += " Telefone de Contato: ";
+        dadosOutraPessoa += outraPessoa.getTelefoneContato();
+
+        int parada = 0;
     }
 }
