@@ -1,6 +1,7 @@
 package devandroid.danylo.applistacurso.view;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         outraPessoa.setSobreNome("Doe");
         outraPessoa.setCursoDesejado("Java");
         outraPessoa.setTelefoneContato("11-11111111");
+/*
 
         dadosPessoa = "Primeiro nome: ";
         dadosPessoa += pessoa.getPrimeiroNome();
@@ -59,7 +61,9 @@ public class MainActivity extends AppCompatActivity {
         dadosOutraPessoa += outraPessoa.getCursoDesejado();
         dadosOutraPessoa += " Telefone de Contato: ";
         dadosOutraPessoa += outraPessoa.getTelefoneContato();
+*/
 
-        int parada = 0;
+        Log.i("POOAndroid", "Objeto Pessoa: " + pessoa.toString());
+        Log.i("POOAndroid", "Objeto outraPessoa: " + outraPessoa.toString());
     }
 }
