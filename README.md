@@ -12,4 +12,6 @@ Ao pressionar o botão "**FINALIZAR**" o aplicativo finaliza a Activity atual e 
 
 ### Imagem da tela do Aplicativo:
 
-<img src="img/app-screen.png" alt="Tela do aplicativo mostrando os quatro inputs, uma lista do tipo spinner e três botões, limpar, salvar e finalizar." height="600" style="display: block; margin: auto;">
+<p align="center">
+    <img src="img/app-screen.png" alt="Tela do aplicativo mostrando os quatro inputs, uma lista do tipo spinner e três botões, limpar, salvar e finalizar." height="600">
+</p>
