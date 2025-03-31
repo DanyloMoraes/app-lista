@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         editPrimeiroNome.setText(pessoa.getPrimeiroNome());
         editSobrenome.setText(pessoa.getSobreNome());
-        editNomeCurso.setText(pessoa.getTelefoneContato());
+        editNomeCurso.setText(pessoa.getCursoDesejado());
         editTelefone.setText(pessoa.getTelefoneContato());
 
         cursoController = new CursoController();
